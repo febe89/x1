@@ -1,0 +1,13 @@
+name: day 2 learning actions
+
+on:
+  push:
+    branches: main
+
+jobs:
+  checklinux:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checking cmd
+        run: echo "inside linux"
+        shell: bash
